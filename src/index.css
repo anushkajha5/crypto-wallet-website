@@ -215,7 +215,7 @@ main,
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
   gap: 48px;
-  align-items: start;
+  align-items: center;
   overflow: visible;
 }
 
