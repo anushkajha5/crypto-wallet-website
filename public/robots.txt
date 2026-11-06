@@ -1,0 +1,5 @@
+# Crawling is disallowed while the production domain is unset
+# and legal pages remain drafts. Set site.allowIndexing and
+# site.productionOrigin, then replace this file before launch.
+User-agent: *
+Disallow: /
