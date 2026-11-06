@@ -2,8 +2,10 @@ export function PhoneMocks() {
   return (
     <div className="phones" aria-hidden="true">
       <article className="phone">
+        <span className="phone-rail phone-rail-left" />
+        <span className="phone-rail phone-rail-right" />
         <div className="phone-screen">
-          <div className="phone-bar" />
+          <div className="phone-island" />
           <div className="row">
             <span>Screen</span>
             <span>Sample</span>
@@ -13,8 +15,10 @@ export function PhoneMocks() {
         </div>
       </article>
       <article className="phone">
+        <span className="phone-rail phone-rail-left" />
+        <span className="phone-rail phone-rail-right" />
         <div className="phone-screen">
-          <div className="phone-bar" />
+          <div className="phone-island" />
           <div className="row">
             <span>Overview</span>
             <span>Sample</span>
@@ -34,8 +38,10 @@ export function PhoneMocks() {
         </div>
       </article>
       <article className="phone">
+        <span className="phone-rail phone-rail-left" />
+        <span className="phone-rail phone-rail-right" />
         <div className="phone-screen">
-          <div className="phone-bar" />
+          <div className="phone-island" />
           <div className="row">
             <span>Detail</span>
             <span>Sample</span>
